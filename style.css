@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap');
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    border-radius: 50%;
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/1161314/pexels-photo-1161314.jpeg?cs=srgb&dl=agua-al-aire-libre-amanecer-ciudad-1161314.jpg&fm=jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-width: 5px;
+    border-style: solid;;
+    border-color: #00578e;
+    border-radius: 50%;
+}
+
+.userName {
+    font-size: 25px;
+    margin-top: 14px;
+    font-family: 'MuseoModerno', cursive;
+    text-align: center;
+    color:#00578e;
+}
+
+.ubication {
+    font-size: 25px;
+    margin-top: 14px;
+    color: #BC4B51;
+    font-family: 'MuseoModerno', cursive;
+    text-align: center;
+}
+
+.socials {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.socials li {
+    display: inline-block;
+    margin: 5px
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'MuseoModerno', cursive;
+    color:#474747;
+}
+
+a:hover {
+    color:#00578e;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.email {
+    background-image: url("icons/message.png");
+}
+
+.linkedin {
+    background-image: url("icons/linkedin.png");
+}
+
+.about {
+    padding: 10px;
+}
